@@ -13,16 +13,15 @@ app.use('/api', api);
 
 app.use(express.static('public'));
 
-// GET Route for "index.html" file
-app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
-);
-
-// GET Route for notes file
+// GET Route for notes file. This comes first since the asterik will catch everything else.
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
+// GET Route for "index.html" file
+app.get('*', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
