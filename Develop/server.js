@@ -18,7 +18,7 @@ app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
-// GET Route for notes 
+// GET Route for notes file
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
