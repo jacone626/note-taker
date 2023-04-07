@@ -18,7 +18,7 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// GET Route for "index.html" file
+// GET Route for "index.html" file. Catches everything other than /notes.
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
