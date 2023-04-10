@@ -10,7 +10,7 @@ notes.get('/', (req, res) =>
 // POST Route for adding notes
 notes.post('/', (req, res) => {
     // Log that a POST request was received
-    console.info(`${req.method} request received to submit feedback`);
+    console.info(`${req.method} request received to submit notes`);
   
     // Destructuring assignment for the items in req.body
     const { title, text } = req.body;
@@ -36,5 +36,15 @@ notes.post('/', (req, res) => {
       res.json('Error in posting feedback');
     }
   });
+
+  
+  // DELTE route for removing notes
+notes.delete('/:id', (req, res) => {
+  // Log that a delete request was received
+  console.info(`${req.method} request received to delete`);
+
+  
+});
+
 
 module.exports = notes;
