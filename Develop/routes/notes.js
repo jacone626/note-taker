@@ -21,6 +21,7 @@ notes.post('/', (req, res) => {
       const newFeedback = {
         title,
         text,
+        id: uuid(),
       };
   
       readAndAppend(newFeedback, './db/db.json');
