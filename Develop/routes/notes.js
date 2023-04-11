@@ -37,14 +37,5 @@ notes.post('/', (req, res) => {
     }
   });
 
-  
-  // DELTE route for removing notes
-notes.delete('/:id', (req, res) => {
-  // Log that a delete request was received
-  console.info(`${req.method} request received to delete`);
-
-  
-});
-
 
 module.exports = notes;
