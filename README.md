@@ -29,7 +29,7 @@ Below is a link to the active website:
 
 ## Credits
 
-https://www.tabnine.com/code/javascript/functions/express/Router/delete
+Class Exercises
 
 ## License
 Please refer to the license in the repo.
