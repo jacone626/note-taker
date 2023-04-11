@@ -9,21 +9,19 @@ N/A
 ## Usage
 The webpage has two main pages; the landing page (pictured below) and the notes page. 
 
-![picture of landing page titled Note Taker with a blue "Get Started" button](images/password-generator-website.png)
+![picture of landing page titled Note Taker with a blue "Get Started" button](assets/note-taker-home.png)
 
 On the main page, you will see a blue "Get Started" button. Once you click on this button, you will be taken to a new page. The page is titled "Note Taker" and has saved notes on the left side of the screen and a section to write in the Note Title and Note Text on the right side of the screen.
 
-![picture of Note Taker page. Saved notes on the left and the space to write new notes on the right](images/password-generator-prompt.png)
+![picture of Note Taker page. Saved notes on the left and the space to write new notes on the right](assets/note-taker-notes.png)
 
-To enter a new note, simply fill out the "Note Title" and "Note Text" sections on the right side of the webpage. Once you have text in those areas, you will see a save icon pop up on the top right corner of the webpage. If you click on this save icon, your note will be saved and appear on the left side of the screen. In the below picture, you can see the note has been saved and the text boxes to enter a new note have the placeholder information again. 
-
-![picture of note added to left side of the screen](images/final-password.png)
+To enter a new note, simply fill out the "Note Title" and "Note Text" sections on the right side of the webpage. Once you have text in those areas, you will see a save icon pop up on the top right corner of the webpage. If you click on this save icon, your note will be saved and appear on the left side of the screen. 
 
 This application also allows you to click on previous notes and they will reappear on the right side of your screen. Simply click on a note from the left side of the screen and it will appear as shown below. If you would like to add a new note, then click the plus sign on the top right corner of the screen and that note will dissapear and you can add a new one. 
 
-![picture of note expanded out](images/final-password.png)
+![picture of note expanded out](assets/note-taker-interview.png)
 
-Below is a link to the active website:
+Below is a link to the active heroku website:
 
 
 
