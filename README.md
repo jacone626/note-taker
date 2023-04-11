@@ -23,7 +23,7 @@ This application also allows you to click on previous notes and they will reappe
 
 Below is a link to the active heroku website:
 
-https://git.heroku.com/secure-plains-21587.git
+https://secure-plains-21587.herokuapp.com/
 
 ## Credits
 
